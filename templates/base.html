@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan Lehigh | Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <footer>
+        <h3></h3>
+        <p>Jan Lehigh - Software Engineer</p>
+        <p>Email: <a href="mailto:janlehigh461437@gmail.com">janlehigh461437@gmail.com</a></p>
+        <p>Phone: 801-971-0792</p>
+        <p><a href="https://www.linkedin.com/in/jan-connor-lehigh/">LinkedIn</a> | <a href="https://github.com/JCL461437">GitHub</a></p>
+        <h3></h3>
+    </footer>
+</body>
+</html>
