@@ -1,11 +1,10 @@
 /* Static files (style.css) */
-
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-image: url('https://i.pinimg.com/originals/99/89/fd/9989fddb2ba58e5612a037689b35e49f.gif'); /* https://i.gifer.com/NvN.gif alternate image https://i.pinimg.com/originals/99/89/fd/9989fddb2ba58e5612a037689b35e49f.gif*/
+  background-image: url('https://i.pinimg.com/originals/99/89/fd/9989fddb2ba58e5612a037689b35e49f.gif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,6 +64,15 @@ h1, h2, h3 {
   color: #00ff00;
 }
 
+.project-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 footer {
   background-color: rgb(0, 0, 0);
   color: #00ff00;
@@ -95,5 +103,10 @@ footer a {
   
   .content {
     padding: 10px;
+  }
+
+  .project-image {
+    width: 100%;
+    margin: 10px 0;
   }
 }
